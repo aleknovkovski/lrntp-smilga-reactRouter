@@ -13,7 +13,7 @@ function App() {
                     <Navbar/>
                     <Outlet/>
                 </>)}>
-                    <Route index element={<h2>Homepage content</h2>} />
+                    <Route index element={<Home />} />
                     <Route path='about' element={<About />} />
                     <Route path='products' element={<Products />} />
                     <Route path="*" element={<Error/>} />
